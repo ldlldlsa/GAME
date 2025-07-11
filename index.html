@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title> Gaming </title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- font awosome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <section class="home-section" id="Home">
+    <div class="lod d-none" id="lod">
+      <span class="loader"></span>
+    </div>
+
+    <nav id="navbar" class="navbar navbar-expand-lg bg-dark shadow-sm ">
+      <div class="container">
+        <a class="navbar-brand" href="#">Game Reviews</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active shooter" aria-current="page" href="#">Shooter</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link mmorpg " aria-current="page" href="#">Mmorpg</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link sailing " aria-current="page" href="#">Sailing</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link permadeath " aria-current="page" href="#">Permadeath</a>
+            </li>
+
+
+
+
+            <li class="nav-item">
+              <a class="nav-link superhero " aria-current="page" href="#">Superhero</a>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="container my-5">
+
+      <div id="display-data" class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-sm-2 g-md-3  g-lg-4 ">
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+  </section>
+
+  <section class="details-section" id="details">
+
+    <div class=" container details-content my-5">
+
+      <div class="header-details  d-flex justify-content-between text-white">
+        <h2>Details Game</h2>
+        <span onclick="closeDetailsSection()" class="close-details me-5 "><i class="fa-solid fa-xmark"></i> </span>
+
+      </div>
+
+      <div class="row my-4">
+
+        <div class="col">
+          <div class="image-details">
+            <img src="images/7280763.jpg" class=" img-des w-75" alt="">
+          </div>
+
+        </div>
+
+        <div class="col">
+          <div class="detais-content text-white">
+
+
+            <h2 > <span class="title-det fw-bolder"> </span> </h2>
+            <h4> <span class="category-det fw-bold" ></span> </h4>
+            <h4> <span class="platform-det fw-bold"></span></h4>
+            <h4 > <span  class="status-det fw-bold "></span></h4>
+            <p class="paragraph-det fa-italic"></p>
+
+
+            <a href="#" class="btn btn-outline-info btn-details"> Show game</a>
+
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+
+
+  </section>
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
