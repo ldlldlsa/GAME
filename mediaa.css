@@ -1,0 +1,408 @@
+
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+
+@media (max-width: 575px) {
+
+
+/*  start home  */
+  .home-section .navbar-toggler{
+    background-color: #b671d7;
+
+  font-size: 12px;
+
+  }
+
+  .navbar-brand{
+
+    font-size: 15px !important;
+    font-weight: 500 !important;
+
+  }
+
+
+.navbar-nav .nav-item{
+
+text-align: center;
+
+}
+
+
+
+.container-data .col {
+
+display: flex;
+justify-content: center;
+align-items: center;
+  /* background-color: #FF3D00; */
+ margin-top: 20px;
+
+}
+
+.container-data .col p {
+
+  font-size: 10px;
+}
+
+
+.container-data .col .btn-card , .card-footer{
+
+
+  font-size: 10px;
+}
+
+
+/*  End home  */
+
+
+
+
+/* start details */
+
+.details-section .header-details h2{
+
+    font-size: 12px ;
+    border-bottom: 2px solid #b671d7;
+
+}
+
+.details-section .header-details i{
+
+font-size: 20px;
+
+
+}
+
+
+
+.details-section .main-row{
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+.details-section .main-row .image-details .img-des{
+
+width: 100%;
+
+}
+
+
+
+.details-section .main-row .detais-content{
+
+margin-top: 20px;
+
+
+}
+
+
+ .main-row .detais-content h4{
+
+    font-size: 15px;
+
+ }
+
+ .main-row .detais-content p{
+
+font-size: 10px;
+
+font-style: italic;
+
+ }
+
+
+ .main-row .detais-content .btn-details{
+
+width: 100%;
+
+ }
+
+/* End details */
+
+
+
+ }
+
+
+ 
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+.home-section .navbar-toggler{
+    background-color: #b671d7;
+
+  font-size: 14px;
+
+  }
+
+  .navbar-brand{
+
+    font-size: 20px !important;
+    font-weight: 700 !important;
+
+  }
+
+
+.navbar-nav .nav-item{
+
+text-align: center;
+
+}
+
+
+.container-data .col {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container-data .col p {
+
+  font-size: 10px;
+}
+
+
+.container-data .col .btn-card , .card-footer{
+
+
+  font-size: 10px;
+}
+
+
+.container-data .col .game-title{
+
+
+font-size: 10px;
+}
+
+
+/* start details */
+
+.details-section .header-details h2{
+
+    font-size: 20px ;
+    border-bottom: 2px solid #b671d7;
+
+}
+
+.details-section .header-details i{
+
+font-size: 25px;
+}
+
+
+
+.details-section .main-row{
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+.details-section .main-row .image-details .img-des{
+border-radius: 10px;
+width: 100%;
+
+}
+
+
+
+.details-section .main-row .detais-content{
+
+margin-top: 20px;
+
+
+}
+
+
+ .main-row .detais-content h4{
+
+    font-size: 15px;
+
+ }
+
+ .main-row .detais-content p{
+
+font-size: 10px;
+
+font-style: italic;
+
+ }
+
+
+ .main-row .detais-content .btn-details{
+
+width: 100%;
+
+ }
+
+/* End details */
+
+
+
+
+
+
+ }
+
+
+ 
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+.home-section .navbar-toggler{
+    background-color: #b671d7;
+
+  font-size: 14px;
+
+  }
+
+  .navbar-brand{
+
+    font-size: 25px !important;
+    font-weight: 700 !important;
+
+  }
+
+
+.navbar-nav .nav-item{
+
+text-align: center;
+
+}
+
+
+.container-data .col {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container-data .col p {
+
+  font-size: 15px;
+}
+
+.container-data .col  .btn-card{
+font-size: 13px;
+max-width: 70px;
+max-height: 40px;
+
+}
+
+.container-data .col .card-footer{
+
+  font-size: 14px;
+}
+
+
+.container-data .col .game-title{
+
+
+font-size: 15px;
+}
+
+/* start details */
+
+.details-section .header-details h2{
+
+    font-size: 20px ;
+    border-bottom: 2px solid #b671d7;
+
+}
+
+.details-section .header-details i{
+
+font-size: 20px;
+
+
+}
+
+
+
+.details-section .main-row{
+text-align: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+.details-section .image-details .img-des{
+
+    align-self: flex-start;
+height: 200px;
+
+
+}
+
+
+
+.details-section .main-row .detais-content{
+
+margin-top: 20px;
+
+
+}
+
+
+ .main-row .detais-content h4{
+
+    font-size: 15px;
+
+ }
+
+ .main-row .detais-content p{
+
+font-size: 12px;
+
+font-style: italic;
+
+ }
+
+
+ .main-row .detais-content .btn-details{
+
+width: 100%;
+
+ }
+
+/* End details */
+
+
+
+
+
+
+
+ }
+

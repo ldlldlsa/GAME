@@ -72,11 +72,12 @@ const optionsDetails = {
 async function getGame( parameter="shooter"){
 
 try {
+
 let lod = document.getElementById('lod').classList.remove('d-none')
 
-let response= await fetch(`https://free-to-play-games-database.p.rapidapi.com/api/games?category=${parameter}` , options)
+let response= await fetch(`https://free-to-play-games-database.p.rapidapi.com/api/games?category=${parameter}`, options)
 
-if( response.ok){
+if(response.ok){
 
  apiData = await response.json()
 
@@ -95,14 +96,11 @@ lod = document.getElementById('lod').classList.add('d-none')
 
 }
 
-
-getGame()
-
+ getGame()
 
 
 
 function categoryNav(){
-
 
 
 shooter.addEventListener('click', function(){
@@ -164,8 +162,8 @@ cartona+=`
   <img src="${apiData[i].thumbnail }" class="card-img-top w-100" alt="...">
   <div class="card-body">
    <div class="d-flex justify-content-between">
-<a href="#" class="fw-bolder">${apiData[i].title}</a>
-<a href=" ${apiData[i].freetogame_profile_url}" class=" btn btn-info "> free</a>
+<a href="#" class="fw-bolder game-title ">${apiData[i].title}</a>
+<a href=" ${apiData[i].freetogame_profile_url}" class=" btn btn-info btn-card "> free</a>
    </div>
     <p class="card-text text-center pt-1"> ${apiData[i].short_description.slice(' ', 40) } </p>
   </div>
@@ -230,11 +228,11 @@ let btnDetails= document.querySelector('.btn-details')
 
 
 imgDes.setAttribute('src' , `${detailsData.thumbnail}`) 
-titleDet.innerHTML=` name game>>>:  ${ detailsData.title}`
-category.innerHTML=`category game >>>:  ${ detailsData.genre}`
-platform.innerHTML=`platform >>>:  ${ detailsData.platform}`
-status.innerHTML=`status >>>:  ${ detailsData.status}`
-paragraph.innerHTML=`discription >>>:  ${ detailsData.description}`
+titleDet.innerHTML=` name game <span class="text-info"> >></span> :${ detailsData.title}`
+category.innerHTML=`category game  <span class="text-primary fw-light">>>></span>:  ${ detailsData.genre}`
+platform.innerHTML=`platform  <span class="text-primary fw-light">>>></span> ${ detailsData.platform}`
+status.innerHTML=`status <span class="text-primary fw-light">>>></span>:  ${ detailsData.status}`
+paragraph.innerHTML=`discription <span class="text-primary fw-light">>>></span>:  ${ detailsData.description}`
 btnDetails.setAttribute('href',  `${ detailsData.game_url}`  )
 
 
